@@ -1,0 +1,13 @@
+<div id = "showid">
+  <h3 id='showh2'><%= @task.name %></h2>
+
+  <p id='showp'><%= @task.description %></p>
+
+
+  <table id="showtab">
+    <tr>
+      <td><%= link_to "Edit", edit_task_path %></td>
+      <td><%= link_to "Back", root_path %></td>
+    </tr>  
+  </table>
+</div>
